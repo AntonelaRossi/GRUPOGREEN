@@ -13,8 +13,11 @@ body {
     color: black;
     font-weight: bold;
 }
-ul.menuprincipal {
+.elementosdelmenu {
     background-color: #53da61;
+    width: 100%;
+}
+ul.menuprincipal {
     list-style: none;
     display: flex;
     flex-direction: row;
