@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    font-family: "Courrier New", Courier, monospace;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+}
+.logo {
+    width: 110px;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    font-weight: bold;
+}
+ul.menuprincipal {
+    background-color: rgb(253, 200, 209);
+    list-style: none;
+    width: 82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px auto;
+    margin-block-end: 2%;
+    padding: 10px;
+}
+.banner img{
+    width: 100%;
+    height: 40%;
+    /* border-radius: 20px; si lo quisiera redondeado but i dont like it*/
+}
