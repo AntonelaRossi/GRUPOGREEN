@@ -25,5 +25,9 @@ ul.menuprincipal {
 }
 .banner img{
     width: 100%;
-    /* border-radius: 20px; si lo quisiera redondeado but i dont like it*/
+}
+.textoadentro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
