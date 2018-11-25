@@ -5,13 +5,13 @@
 .contenidoportfolio h1 {
     text-align: center;
 }
-.numero1{
+.pagina{
     display: flex;
     flex-direction: row;
     border: 5px solid black;
     margin: 3vw;
 }
-.imagen1{
+.imagenportfolio{
     width: 30vw;
     height: 25vw;
     padding: 2vw;
