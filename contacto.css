@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+    background-color: #53da61;
+    display: flex;
+    flex-direction: row;
+    color: black;
+
+}
+
+.elementosdelmenu {
+    width: 100%;
+    height: 110px;
+
+}
+
+ul.menuprincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 10%;
+}
+
+li {
+    padding: 10 0 40 40;
+}
+
+.menuprincipal a{
+    color: #132d0e
+}
