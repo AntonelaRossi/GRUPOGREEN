@@ -33,3 +33,46 @@ li {
 .menuprincipal a{
     color: #132d0e
 }
+
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 20 70 40;
+}
+
+
+.formulario {
+    margin-right: 50px;
+}
+
+.mapa {
+    width: 300px;
+    padding-left: 70px;
+    border-left: solid #53da61 1px;
+
+}
+
+
+p {
+   font-style: italic;
+}
+
+
+.footer {
+    background-color: black;
+    height: 100px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.redes img {
+    padding: 40 0 40 20;
+}
