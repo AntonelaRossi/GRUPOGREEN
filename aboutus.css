@@ -23,8 +23,8 @@ ul.menuprincipal {
 li {
     padding: 10 0 40 40;
 }
-.menuprincipal a{
-    color: #132d0e
+.menuprincipal a {
+    color: #132d0e;
 }
 .contenedor1 {
     display: flex;
@@ -75,7 +75,6 @@ h2 {
      align-items: center;
      margin-right: 10%;
 }
- .redes img {
+.redes img {
      padding: 40 0 40 20;
 }
- 
