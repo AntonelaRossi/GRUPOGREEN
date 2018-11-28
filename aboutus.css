@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 .header {
     background-color: hsl(126, 65%, 59%);
@@ -47,7 +47,7 @@ li {
     border: solid white 5px;
     background-color: white;
 }
-.sofi {
+.foto {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,7 +61,7 @@ h2 {
 .texto {
     width: 30%;
     border: solid white 5px;
-    background-color: hsl(126, 65%, 59%);
+    background-color: hsl(126, 67%, 70%);
     padding: 5%;
 }
 .footer {
