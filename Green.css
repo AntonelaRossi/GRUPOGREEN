@@ -1,9 +1,5 @@
 body {
     background-color: white;
-}
-.logo {
-}
-
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -46,11 +42,6 @@ li {
     background-color: black;
     opacity: 0.5;
     position: absolute;
-    color: white;
-    font-weight: bold;
-    top: 50%;
-    left: 50%;
-
     top: 35%;
     left: 20%;
     z-index: 10;
@@ -59,7 +50,7 @@ li {
     box-shadow: 7px 10px 26px 0px rgba(0,0,0,0.59);
 }
 
-p {
+.textoadentro p {
     text-align: center;
     padding: 10 30 10 30;
     font-size: 4em;
@@ -85,7 +76,3 @@ p {
     padding: 40 0 40 20;
 
 }
-
-
-
-
