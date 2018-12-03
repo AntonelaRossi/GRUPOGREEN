@@ -42,15 +42,21 @@ a {
     margin: 3vw;
 }
 
+.mockup {
+    width: 20%;
+    margin: 1vw;
+}
+
 .imagenportfolio{
-    width: 30%;
+    width: 100%;
     margin: 1vw;
 }
 
 .numero1info{
     font-weight: bold;
     margin: 1vw;
-    padding: 1vw;
+    padding-top: 3vw;
+    padding-left: 3vw;
 }
 
 .descripcion{
