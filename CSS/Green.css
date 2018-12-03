@@ -1,13 +1,12 @@
 body {
     background-color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .header {
     background-color: #53da61;
     display: flex;
     color: black;
-
 }
 
 .elementosdelmenu {
@@ -25,10 +24,6 @@ ul.menuprincipal {
 
 li {
     padding: 10 0 40 40;
-}
-
-.menuprincipal a{
-    color: #132d0e
 }
 
 .banner img{
@@ -63,7 +58,6 @@ li {
 
 .redes {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     margin-right: 10%;
