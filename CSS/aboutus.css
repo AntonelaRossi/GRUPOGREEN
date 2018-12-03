@@ -26,14 +26,9 @@ li {
 .menuprincipal a{
     color: #132d0e
 }
-.contenedor1 {
-    display: flex;
-    flex-direction: row;
-    align-items: top;
-    margin: 20 70 40;
-}
 .nosotras { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
@@ -78,4 +73,82 @@ h2 {
  .redes img {
      padding: 40 0 40 20;
 }
- 
+
+/*tablet*/
+@media only screen
+    and (min-width: 768px)
+    and (max-width: 1024px) {
+        
+        .header {
+            background-color: hsl(126, 65%, 59%);
+            display: flex;
+            flex-direction: row;
+            color: black;
+        }
+        .elementosdelmenu {
+            width: 100%;
+            height: 50px;
+        }
+        ul.menuprincipal {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            margin-right: 10%;
+        }
+        li {
+            padding: 10 0 40 40;
+        }
+        .menuprincipal a{
+            color: #132d0e
+        }
+        .nosotras { 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .bio {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: black;
+            text-align: justify;
+            padding: 10px;
+            border: solid white 5px;
+            background-color: white;
+        }
+        .foto {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+        }
+        h2 {
+            text-align: center;
+        }
+        .texto {
+            width: 90%;
+            border: solid white 5px;
+            background-color: hsl(126, 67%, 70%);
+            padding: 5%;
+        }
+        .footer {
+             background-color: black;
+             height: 100px;
+        }
+        .redes {
+             display: flex;
+             flex-direction: row;
+             justify-content: flex-end;
+             align-items: center;
+             margin-right: 10%;
+        }
+         .redes img {
+             padding: 40 0 40 20;
+        }
+
+    }
