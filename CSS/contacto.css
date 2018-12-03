@@ -34,28 +34,17 @@ li {
 
 .contenedor {
     display: flex;
-    justify-content: space-around;
 }
-
 
 .formulario {
-    margin-right: 50px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
+    margin: 5%;
 }
 
 .mapa {
+    margin: 5%;
     width: 300px;
     padding-left: 70px;
     border-left: solid #53da61 1px;
-}
-
-
-.direccion {
-   font-style: italic;
 }
 
 
