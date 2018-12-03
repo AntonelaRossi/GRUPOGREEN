@@ -50,8 +50,12 @@ li {
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
-h2 {
-    text-align: center;
+p {
+    text-align: justify;
+    margin-left: 5%;
+}
+span {
+    font-size: 150%;
 }
 .texto {
     width: 30%;
@@ -78,7 +82,7 @@ h2 {
 @media only screen
     and (min-width: 768px)
     and (max-width: 1024px) {
-        
+
         .header {
             background-color: hsl(126, 65%, 59%);
             display: flex;
@@ -86,7 +90,6 @@ h2 {
             color: black;
         }
         .elementosdelmenu {
-            width: 100%;
             height: 50px;
         }
         ul.menuprincipal {
@@ -112,17 +115,24 @@ h2 {
         .bio {
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: space-between;
             color: black;
             text-align: justify;
             padding: 10px;
             border: solid white 5px;
             background-color: white;
         }
+        h2 {
+            display: flex;
+            align-items: flex-start;
+        }
+        .texto {
+            width: 90%;
+            display: flex;
+            justify-content: flex-start;
+        }
         .foto {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+            display: flex;
             width: 20%;
             -webkit-clip-path: circle(50% at 50% 50%);
             clip-path: circle(50% at 50% 50%);
@@ -130,12 +140,7 @@ h2 {
         h2 {
             text-align: center;
         }
-        .texto {
-            width: 90%;
-            border: solid white 5px;
-            background-color: hsl(126, 67%, 70%);
-            padding: 5%;
-        }
+
         .footer {
              background-color: black;
              height: 100px;
