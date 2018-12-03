@@ -7,6 +7,7 @@ body {
     background-color: #53da61;
     display: flex;
     color: black;
+
 }
 
 .elementosdelmenu {
@@ -24,6 +25,11 @@ ul.menuprincipal {
 
 li {
     padding: 10 0 40 40;
+}
+
+/* esto es para que los links no se vean azules */
+.menuprincipal a{
+    color: #132d0e
 }
 
 .banner img{
@@ -46,6 +52,7 @@ li {
     text-align: center;
     padding: 10 30 10 30;
     font-size: 4em;
+    font-weight: bolder;
     color: white;
     z-index: 9;
 }
