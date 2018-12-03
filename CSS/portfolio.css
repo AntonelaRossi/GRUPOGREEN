@@ -35,17 +35,15 @@ a {
 
 .contenidoportfolio h1 {
     text-align: center;
-    display: flex;
-    float: wrap;
 }
 .pagina{
     background-color: #53da61;
-    width: 30px;
+    display: flex;
     margin: 3vw;
 }
 
 .mockup {
-    width: 100%;
+    width: 20%;
     margin: 1vw;
 }
 
@@ -56,7 +54,6 @@ a {
 
 .numero1info{
     font-weight: bold;
-    text-align: center;
     margin: 1vw;
     padding-top: 3vw;
     padding-left: 3vw;
@@ -81,7 +78,6 @@ a {
     border-width: 1px;
     border-style: solid;
     border-color: #000000;
-
     }
 
 .footer {
