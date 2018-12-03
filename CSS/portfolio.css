@@ -39,11 +39,11 @@ a {
 .pagina{
     background-color: #53da61;
     display: flex;
-    margin: 2vw;
+    margin: 3vw;
 }
 
 .imagenportfolio{
-    width: 100%;
+    width: 30%;
     margin: 1vw;
 }
 
