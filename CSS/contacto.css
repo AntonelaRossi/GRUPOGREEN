@@ -34,13 +34,17 @@ li {
 
 .contenedor {
     display: flex;
-    align-items: top;
-    margin: 20 70 40;
+    justify-content: space-around;
 }
 
 
 .formulario {
     margin-right: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 .mapa {
@@ -50,7 +54,7 @@ li {
 }
 
 
-p {
+.direccion {
    font-style: italic;
 }
 
