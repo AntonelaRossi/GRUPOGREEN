@@ -5,7 +5,6 @@ body {
 .header {
     background-color: hsl(126, 65%, 59%);
     display: flex;
-    flex-direction: row;
     color: black;
 }
 .elementosdelmenu {
@@ -13,7 +12,6 @@ body {
 }
 ul.menuprincipal {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
@@ -45,7 +43,7 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 }
@@ -78,7 +76,7 @@ span {
      padding: 40 0 40 20;
 }
 
-/*ipad*/
+/* TABLET */
 @media only screen
     and (min-width: 768px)
     and (max-width: 1024px) {
@@ -86,7 +84,6 @@ span {
     .header {
         background-color: hsl(126, 65%, 59%);
         display: flex;
-        flex-direction: row;
         color: black;
     }
     .elementosdelmenu {
@@ -156,10 +153,10 @@ span {
         padding: 40 0 40 20;
     }
 }
-/*iphone*/
+/* TELEFONO */
 @media only screen
-    and (min-width: 375px)
-    and (max-width: 667px) {
+    and (min-width: 320px)
+    and (max-width: 480px) {
 
     .body {
         font-size: 60%;
@@ -224,8 +221,8 @@ span {
     }
     .foto {
         display: flex;
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 20%;
+        max-height: 20%;
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
     }
