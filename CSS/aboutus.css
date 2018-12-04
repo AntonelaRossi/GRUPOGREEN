@@ -76,7 +76,7 @@ span {
      padding: 40 0 40 20;
 }
 
-/* TABLET */
+/*ipad*/
 @media only screen
     and (min-width: 768px)
     and (max-width: 1024px) {
@@ -84,6 +84,7 @@ span {
     .header {
         background-color: hsl(126, 65%, 59%);
         display: flex;
+        flex-direction: row;
         color: black;
     }
     .elementosdelmenu {
@@ -153,10 +154,10 @@ span {
         padding: 40 0 40 20;
     }
 }
-/* TELEFONO */
+/*iphone*/
 @media only screen
-    and (min-width: 320px)
-    and (max-width: 480px) {
+    and (min-width: 375px)
+    and (max-width: 667px) {
 
     .body {
         font-size: 60%;
@@ -221,8 +222,8 @@ span {
     }
     .foto {
         display: flex;
-        max-width: 20%;
-        max-height: 20%;
+        max-width: 50%;
+        max-height: 50%;
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
     }
