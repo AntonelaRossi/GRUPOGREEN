@@ -107,12 +107,11 @@ li {
     .mapa {
         display: flex;
         justify-content: center;
-        margin: 5%;
         border-top: solid #53da61 1px;
     }
 
-    .maps {
-        width: 50%;
+    .maps img {
+        width: 100%;
     }
 
     .redes {
@@ -169,12 +168,11 @@ li {
         .mapa {
             display: flex;
             justify-content: center;
-            margin: 5%;
             border-top: solid #53da61 1px;
         }
 
-        .maps {
-            width: 50%;
+        .maps img {
+            width: 80%;
         }
 
         
