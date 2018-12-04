@@ -10,7 +10,6 @@ body {
 }
 .elementosdelmenu {
     width: 100%;
-    height: 110px;
 }
 ul.menuprincipal {
     display: flex;
@@ -56,7 +55,7 @@ p {
 }
 span {
     font-size: 150%;
-    font-weight: bold
+    font-weight: bold;    
 }
 .texto {
     width: 30%;
@@ -84,170 +83,165 @@ span {
     and (min-width: 768px)
     and (max-width: 1024px) {
 
-        .header {
-            background-color: hsl(126, 65%, 59%);
-            display: flex;
-            flex-direction: row;
-            color: black;
-        }
-        .elementosdelmenu {
-            height: 50px;
-        }
-        ul.menuprincipal {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: center;
-            list-style: none;
-            margin-right: 10%;
-        }
-        li {
-            padding: 10 0 40 40;
-        }
-        .menuprincipal a{
-            color: #132d0e
-        }
-        .nosotras { 
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-        }
-        .bio {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: black;
-            text-align: justify;
-            padding: 10px;
-            border: solid white 5px;
-            background-color: white;
-        }
-        h2 {
-            display: flex;
-            align-items: flex-start;
-        }
-        .texto {
-            width: 90%;
-            display: flex;
-            justify-content: flex-start;
-        }
-        .foto {
-            display: flex;
-            width: 40vw;
-            -webkit-clip-path: circle(50% at 50% 50%);
-            clip-path: circle(50% at 50% 50%);
-        }
-        h2 {
-            text-align: center;
-        }
-
-        .footer {
-             background-color: black;
-             height: 100px;
-        }
-        .redes {
-             display: flex;
-             flex-direction: row;
-             justify-content: flex-end;
-             align-items: center;
-             margin-right: 10%;
-        }
-         .redes img {
-             padding: 40 0 40 20;
-        }
-
+    .header {
+        background-color: hsl(126, 65%, 59%);
+        display: flex;
+        flex-direction: row;
+        color: black;
     }
+    .elementosdelmenu {
+        height: 50px;
+    }
+    ul.menuprincipal {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin-right: 10%;
+    }
+    li {
+        padding: 10 0 40 40;
+    }
+    .menuprincipal a{
+        color: #132d0e
+    }
+    .nosotras { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: black;
+        text-align: justify;
+        padding: 10px;
+        border: solid white 5px;
+        background-color: white;
+    }
+    h2 {
+        display: flex;
+        align-items: flex-start;
+    }
+    .texto {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .foto {
+        display: flex;
+        width: 40vw;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+    }
+    h2 {
+        text-align: center;
+    }
+    .footer {
+        background-color: black;
+        height: 100px;
+    }
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 10%;
+    }
+    .redes img {
+        padding: 40 0 40 20;
+    }
+}
 /*iphone*/
 @media only screen
     and (min-width: 375px)
     and (max-width: 667px) {
 
-        .body {
-            font-size: 60%;
-        }
-        span {
-            font-size: 120%; 
-            font-weight: bold;
-        }
-        .header {
-            display: flex;
-            flex-direction: column;  
-            align-items: center;
-        }
-        
-        .logo { 
-            width: 30%;
-            align-items: center;
-        }    
-        
-        .logo img {
-            width: 100%; 
-        
-        }
-    
-        ul.menuprincipal {
-            list-style: none;
-            flex-direction: column;
-            align-items: center;
-            margin: 2px auto;
-            padding: 5px;
-            text-align: center;
-        }
-
-        li {
-            padding: 10 0 10 0;
-            border-top: #000000 solid 1px;
-        
-        }
-        .nosotras { 
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-        }
-        .bio {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            color: black;
-            text-align: justify;
-            padding: 10px;
-            border: solid white 5px;
-            background-color: white;
-        }
-        h2 {
-            display: flex;
-            align-items: flex-start;
-        }
-        .texto {
-            width: 90%;
-            display: flex;
-            justify-content: flex-start;
-        }
-        .foto {
-            display: flex;
-            width: 150%;
-            -webkit-clip-path: circle(50% at 50% 50%);
-            clip-path: circle(50% at 50% 50%);
-        }
-        h2 {
-            text-align: center;
-        }
-
-        .footer {
-             background-color: black;
-             height: 100px;
-        }
-        .redes {
-             display: flex;
-             flex-direction: row;
-             justify-content: flex-end;
-             align-items: center;
-             margin-right: 10%;
-        }
-         .redes img {
-             padding: 40 0 40 20;
-        }
-
+    .body {
+        font-size: 60%;
     }
+    span {
+        font-size: 120%; 
+        font-weight: bold;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }    
+    .logo { 
+        width: 30%;
+        align-items: center;
+    }        
+    .logo img {
+        width: 100%; 
+    }
+    ul.menuprincipal {
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        margin: 2px auto;
+        padding: 5px;
+        text-align: center;
+    }
+    li {
+        padding: 10 0 10 0;
+        border-top: #000000 solid 1px;
+    }
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nosotras { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .bio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: black;
+        text-align: justify;
+        padding: 10px;
+        border: solid white 5px;
+        background-color: white;
+    }
+    h2 {
+        display: flex;
+        align-items: flex-start;
+    }
+    .texto {
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .foto {
+        display: flex;
+        width: 150%;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+    }
+    h2 {
+        text-align: center;
+    }
+    .footer {
+        background-color: black;
+        height: 100px;
+    }
+    .redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 10%;
+    }
+    .redes img {
+        padding: 40 0 40 20;
+    }
+}
