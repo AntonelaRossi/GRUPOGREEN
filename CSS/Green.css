@@ -10,9 +10,17 @@ body {
 
 }
 
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 100%; 
+
+}
+
 .elementosdelmenu {
     width:100%;
-    height: 110px;
 
 }
 
@@ -72,4 +80,95 @@ li {
 
 .redes img {
     padding: 40 0 40 20;
+}
+
+/* TABLETS */
+@media only screen 
+    and (min-width: 768px) 
+    and (max-width: 1024px) {
+
+
+    .header {
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+
+
+    ul.menuprincipal {
+        list-style: none;
+        flex-direction: row;
+        justify-content: center;
+        margin: 2px auto;
+        padding: 5px;
+    }
+
+    .textoadentro p {
+        text-align: center;
+        padding: 10 30 10 30;
+        top: 5%;
+        font-size: 2em;
+        font-weight: bolder;
+        color: white;
+        z-index: 9;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}  
+
+/* TELEFONO */
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 480px) {
+
+        .header {
+            display: flex;
+            flex-direction: column;  
+            align-items: center;
+        }
+        
+        .logo { 
+            width: 30%;
+            align-items: center;
+        }    
+        
+        .logo img {
+            width: 100%; 
+        
+        }
+    
+        ul.menuprincipal {
+            list-style: none;
+            flex-direction: column;
+            align-items: center;
+            margin: 2px auto;
+            padding: 5px;
+        }
+
+        li {
+            padding: 10 0 10 0;
+        }
+        
+
+        .textoadentro p {
+            text-align: center;
+            padding: 10 30 10 30;
+            font-size: 1em;
+            font-weight: bolder;
+            color: white;
+            z-index: 9;
+        }
+    
+        .redes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
 }
