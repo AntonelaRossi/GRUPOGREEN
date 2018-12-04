@@ -1,12 +1,11 @@
 body {
     background-color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .header {
     background-color: #53da61;
     display: flex;
-    flex-direction: row;
     color: black;
 
 }
@@ -14,14 +13,11 @@ body {
 .elementosdelmenu {
     width: 100%;
     height: 110px;
-
 }
 
 ul.menuprincipal {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
     list-style: none;
     margin-right: 10%;
 }
@@ -30,31 +26,73 @@ li {
     padding: 10 0 40 40;
 }
 
-.menuprincipal a{
+/* esto es para que los links no se vean azules */
+a {
     color: #132d0e
 }
-.contenidoportfolio{
-    background-color: #53da61;
 
-}
+/* de aca para abajo contenido especial de "portfolio */
+
 .contenidoportfolio h1 {
     text-align: center;
 }
+
 .pagina{
+    background-color: #53da61;
     display: flex;
-    flex-direction: row;
-    border: 5px solid black;
     margin: 3vw;
 }
+
+.mockup {
+    width: 20%;
+    margin: 1vw;
+}
+
 .imagenportfolio{
-    width: 30vw;
-    height: 25vw;
-    padding: 2vw;
+    width: 100%;
+    margin: 1vw;
 }
+
 .numero1info{
-    margin-right: 2vw;
+    font-weight: bold;
+    margin: 1vw;
+    padding-top: 3vw;
+    padding-left: 3vw;
 }
+
 .descripcion{
-    text-align: justify;
+    text-align: center;
+    font-weight: initial;
     font-size: 1vw;
+}
+
+.boton {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 1vw;
+    color:#000000;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    }
+
+.footer {
+    background-color: black;
+    height: 100px;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.redes img {
+    padding: 40 0 40 20;
 }
