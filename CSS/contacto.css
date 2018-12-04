@@ -7,32 +7,30 @@ body {
     background-color: #53da61;
     display: flex;
     color: black;
-
 }
 
 .logo {
-    width: 10%;
+    width: 15%;
 }
 
 .logo img {
     width: 100%; 
-
 }
 
 .elementosdelmenu {
     width:100%;
-
 }
 
 ul.menuprincipal {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
     margin-right: 10%;
 }
 
 li {
-    padding: 10 0 40 40;
+    padding: 25 0 25 25;
 }
 
 
@@ -56,7 +54,6 @@ li {
     border-left: solid #53da61 1px;
 }
 
-
 .footer {
     background-color: black;
     height: 100px;
@@ -73,6 +70,8 @@ li {
     padding: 40 0 40 20;
 }
 
+
+
 /* TABLETS */
 @media only screen 
     and (min-width: 768px) 
@@ -85,13 +84,35 @@ li {
         align-items: center;
     }
 
-
     ul.menuprincipal {
         list-style: none;
         flex-direction: row;
         justify-content: center;
         margin: 2px auto;
         padding: 5px;
+    }
+
+    li {
+        padding: 10px auto;
+        border-top: #000000 solid 1px;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mapa {
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+        border-top: solid #53da61 1px;
+    }
+
+    .maps {
+        width: 50%;
     }
 
     .redes {
@@ -134,8 +155,29 @@ li {
 
         li {
             padding: 10 0 10 0;
+            border-top: #000000 solid 1px;
+        
+        }
+            
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
     
+        .mapa {
+            display: flex;
+            justify-content: center;
+            margin: 5%;
+            border-top: solid #53da61 1px;
+        }
+
+        .maps {
+            width: 50%;
+        }
+
+        
         .redes {
             display: flex;
             justify-content: center;

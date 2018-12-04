@@ -7,32 +7,30 @@ body {
     background-color: #53da61;
     display: flex;
     color: black;
-
 }
 
 .logo {
-    width: 10%;
+    width: 15%;
 }
 
 .logo img {
     width: 100%; 
-
 }
 
 .elementosdelmenu {
     width:100%;
-
 }
 
 ul.menuprincipal {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
     margin-right: 10%;
 }
 
 li {
-    padding: 10 0 40 40;
+    padding: 25 0 25 25;
 }
 
 /* esto es para que los links no se vean azules */
@@ -103,6 +101,11 @@ li {
         padding: 5px;
     }
 
+    li {
+        padding: 10px auto;
+        border-top: #000000 solid 1px;
+    }
+
     .textoadentro p {
         text-align: center;
         padding: 10 30 10 30;
@@ -149,10 +152,13 @@ li {
             align-items: center;
             margin: 2px auto;
             padding: 5px;
+            text-align: center;
         }
 
         li {
             padding: 10 0 10 0;
+            border-top: #000000 solid 1px;
+        
         }
         
 
@@ -172,3 +178,4 @@ li {
         }
 
 }
+
