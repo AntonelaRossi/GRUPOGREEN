@@ -10,9 +10,17 @@ body {
 
 }
 
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 100%; 
+
+}
+
 .elementosdelmenu {
-    width: 100%;
-    height: 110px;
+    width:100%;
 
 }
 
@@ -26,6 +34,7 @@ ul.menuprincipal {
 li {
     padding: 10 0 40 40;
 }
+
 
 /* esto es para que los links no se vean azules */
 .menuprincipal a{
