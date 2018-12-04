@@ -42,25 +42,25 @@ li {
     width: 100%;
 }
 
-.textoadentro {
-    background-color: black;
-    opacity: 0.5;
+.posicionable {
     position: absolute;
-    top: 30%;
-    left: 20%;
-    z-index: 10;
-    -webkit-box-shadow: 7px 10px 26px 0px rgba(0,0,0,0.59);
-    -moz-box-shadow: 7px 10px 26px 0px rgba(0,0,0,0.59);
-    box-shadow: 7px 10px 26px 0px rgba(0,0,0,0.59);
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.textoadentro p {
-    text-align: center;
-    padding: 10 30 10 30;
+.titulo {
+    background: #000000;
+    opacity: 0.5;
     font-size: 3em;
     font-weight: bolder;
     color: white;
-    z-index: 9;
+    z-index: 11;
+    margin: 1px auto;
 }
 
 
@@ -106,14 +106,24 @@ li {
         border-top: #000000 solid 1px;
     }
 
-    .textoadentro p {
-        text-align: center;
-        padding: 10 30 10 30;
-        top: 5%;
+    .posicionable {
+        position: absolute;
+        height: 70%;
+        z-index: 11;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo {
+        background: #000000;
+        opacity: 0.5;
         font-size: 2em;
         font-weight: bolder;
         color: white;
-        z-index: 9;
+        z-index: 11;
+        margin: 1px auto;
     }
 
     .redes {
@@ -162,13 +172,25 @@ li {
         }
         
 
-        .textoadentro p {
-            text-align: center;
-            padding: 10 30 10 30;
+        .posicionable {
+            position: absolute;
+            width: 100%;
+            height: 30%;
+            z-index: 11;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .titulo {
+            background: #000000;
+            opacity: 0.5;
             font-size: 1em;
             font-weight: bolder;
             color: white;
-            z-index: 9;
+            z-index: 11;
+            margin: 1px auto;
         }
     
         .redes {
